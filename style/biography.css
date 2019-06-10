@@ -1,0 +1,28 @@
+  main{
+      width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .bio{
+      margin-bottom: 4rem;
+  }
+  .bio p{
+    text-align: justify;
+  }
+  .bio p{
+      margin-top: 0;
+  }
+  .bio img{
+      margin-top: 2px;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4rem;
+  }
+  .bio-text{
+    margin-bottom: 4rem;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }

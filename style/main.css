@@ -1,0 +1,37 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  background-color: #F7F7F7;
+}
+main{
+  margin-top: 100px;
+}
+#header-main{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+  letter-spacing: 1rem;
+  text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+.main-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 150px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+img{
+  width: 100%;
+  box-shadow: 7px 7px 7px 7px rgba(0,0,0,0.2);
+}
+img:hover{
+  box-shadow: 7px 7px 7px 7px rgba(0,0,0,0.6);
+  transition: 1s;
+}
+.coming-soon{
+  text-align: center;
+  font-size: 3rem;
+}
