@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/guest-book.css">
+  <title>RW - GUEST BOOK</title>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-storage.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAH3CFswMSufvJ6PFK4NW7YbAxUjjAO8Jk",
+    authDomain: "waglandart.firebaseapp.com",
+    databaseURL: "https://waglandart.firebaseio.com",
+    projectId: "waglandart",
+    storageBucket: "waglandart.appspot.com",
+    messagingSenderId: "782893685555",
+    appId: "1:782893685555:web:7a5ba0e2b042482c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../" class="logo">RW</a>
+      <div class="navLinks">
+        <a href="../art">Art</a>
+        <a href="../bio">Biography</a>
+        <a href="./" class="active">Guest Book</a>
+        <a href="../contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="openNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+  </header>
+  <main>
+    <div class="guest-book">
+      <div id="messages">
+      </div>
+      <div class="inpMessage">
+        <input id="inpName" type="text" name="inpName" value="" placeholder="Name">
+        <input id="inpMail" type="text" name="inpMail" value="" placeholder="E-Mail">
+        <div>
+          <textarea name="message" rows="4" cols="80" placeholder="Comment"></textarea>
+        </div>
+        <button type="button" name="button">Send</button>
+      </div>
+    </div>
+  </main>
+  <script src="../js/guest-book.js" charset="utf-8"></script>
+  <script src="../js/nav.js" charset="utf-8"></script>
+</body>
+
+</html>

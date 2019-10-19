@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>ROGER WAGLAND</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/main.css">
-    <link rel="stylesheet" href="./style/index.css">
-    <link rel="stylesheet" href="./style/nav.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <a href="./index.html">RW</a>
-        </div>
-        <div class="links">    
-          <a href="./exhibitions/">exhibitions</a>
-          <a href="./art/">art</a>
-          <a href="./music/">music</a>
-          <a href="./video/">video</a>
-          <a href="./biography/">biography</a>
-          <a href="./contact/">contact</a>
-        </div>
-        <div class="language">
-            <span>no</span><span>/</span><span><b>en</b></span>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div id="header-main">
-        ROGER WAGLAND
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <title>RW</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="./" class="logo active">RW</a>
+      <div class="navLinks">
+        <a href="./art">Art</a>
+        <a href="./bio">Biography</a>
+        <a href="./guest-book">Guest Book</a>
+        <a href="./contact">Contact</a>
       </div>
-      <div>
-        <div id="main-img">
-          <img src="./pictures/bilde5.png" alt="">
-        </div>
+      <a href="javascript:void(0);" class="icon" onclick="openNav()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+  </header>
+  <main>
+    <div id="header-main">
+      ROGER WAGLAND
+    </div>
+    <div>
+      <div id="main-img">
+        <img src="index.jpg">
       </div>
-    </main>
-    <footer></footer>
-  </body>
+    </div>
+  </main>
+  <script src="./js/nav.js" charset="utf-8"></script>
+</body>
+
 </html>
