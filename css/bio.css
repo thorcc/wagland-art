@@ -1,5 +1,5 @@
 #text{
-  padding: 2%;
+  padding: 8%;
   padding-top: 2px;
   text-align: justify;
 }
@@ -19,6 +19,13 @@ img{
   img{
     width: 500px;
     display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #text{
+    width: 1000px;
     margin: auto;
   }
 }
