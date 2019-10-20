@@ -61,5 +61,5 @@
   font-weight: 900;
 }
 .spSender::after{
-  content: ":"
+  content: ": "
 }
