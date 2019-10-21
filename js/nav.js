@@ -4,6 +4,14 @@ function openNav() {
 }
 
 function closeNav(){
-  const links = document.querySelector('.navLinks');
-  links.style.display = 'none';
+  if(window.innerWidth < 768){
+    const links = document.querySelector('.navLinks');
+    links.style.display = 'none';
+  }
+}
+window.onresize = () => {
+  if(window.innerWidth >= 768){
+    const links = document.querySelector('.navLinks');
+    links.style.display = 'flex';
+  }
 }
