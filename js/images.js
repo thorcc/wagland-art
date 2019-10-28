@@ -278,8 +278,8 @@ const images = [{
   "filename": "69_Nature's_Gold.jpg"
 }, {
   "order": "70",
-  "title": " Norwegian Lanscape",
-  "filename": "70_Norwegian_Lanscape.jpeg"
+  "title": " Norwegian Landscape",
+  "filename": "70_Norwegian_Landscape.jpeg"
 }];
 
 for(const image of images){
