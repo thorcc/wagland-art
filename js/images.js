@@ -284,14 +284,16 @@ const images = [{
 
 for(const image of images){
   paintings.innerHTML += `
-    <a href="./pictures/${image.filename}" target="_blank" class="divPainting">
-      <img src="./pictures/${image.filename}">
+    <div class="divPainting">
+      <a href="./pictures/${image.filename}" target="_blank">
+        <img src="./pictures/${image.filename}">
+      </a>
       <div class="name">
         <p>${image.title}</p>
       </div>
       <div class="info">
 
       </div>
-    </a>
+    </div>
   `;
 }
