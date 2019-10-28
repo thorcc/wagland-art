@@ -284,7 +284,7 @@ const images = [{
 
 for(const image of images){
   paintings.innerHTML += `
-    <div class="divPainting">
+    <a href="./pictures/${image.filename}" target="_blank" class="divPainting">
       <img src="./pictures/${image.filename}">
       <div class="name">
         <p>${image.title}</p>
@@ -292,6 +292,6 @@ for(const image of images){
       <div class="info">
 
       </div>
-    </div>
+    </a>
   `;
 }
