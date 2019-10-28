@@ -114,8 +114,8 @@ const images = [{
   "filename": "28_The_Blue_Room.jpg"
 }, {
   "order": "29",
-  "title": " Reaching for the Sky",
-  "filename": "29_Reaching_for_the_Sky.jpg"
+  "title": " Reaching for the Stars",
+  "filename": "29_Reaching_for_the_Stars.jpg"
 }, {
   "order": "30",
   "title": " Riding Life Together (Blue)",
