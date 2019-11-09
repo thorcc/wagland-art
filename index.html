@@ -11,30 +11,6 @@
   <link rel="stylesheet" href="./css/nav.css">
   <link rel="stylesheet" href="./css/art.css">
   <title>Roger Wagland - ART</title>
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
-
-<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.4.1/firebase-storage.js"></script>
-
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyAH3CFswMSufvJ6PFK4NW7YbAxUjjAO8Jk",
-    authDomain: "waglandart.firebaseapp.com",
-    databaseURL: "https://waglandart.firebaseio.com",
-    projectId: "waglandart",
-    storageBucket: "waglandart.appspot.com",
-    messagingSenderId: "782893685555",
-    appId: "1:782893685555:web:7a5ba0e2b042482c"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
 </head>
 
 <body>
@@ -64,18 +40,6 @@
 
   <script src="./js/images.js" charset="utf-8"></script>
   <script src="./js/nav.js" charset="utf-8"></script>
-  <script type="text/javascript">
-    const db = firebase.firestore();
-    const docRef = db.collection("index").doc("count");
-
-    async function counter(){
-      let snap = await docRef.get();
-      let number = snap.data().number;
-      console.log(snap.data().number);
-      docRef.set({number: number += 1});
-    }
-    counter();
-  </script>
 </body>
 
 </html>
